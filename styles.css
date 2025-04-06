@@ -1,7 +1,7 @@
 :root {
     /* CSS HSL */
     --night: hsla(90, 8%, 5%, 1);
-    --pumpkin: hsla(23, 94%, 51%, 1);
+    --pumpkin: rgb(136, 135, 135);
     --ash-gray: hsla(103, 4%, 64%, 1);
     --black: hsla(0, 0%, 0%, 1);
     --dim-gray: hsla(120, 1%, 38%, 1);
@@ -88,4 +88,14 @@ body {
   }
   .nav-button {
     display: none;
+  }
+  .main-footer {
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;*/
+    background-color: var(--pumpkin);
+    padding-left: 30px;
+    padding-right: 30px;
   }
