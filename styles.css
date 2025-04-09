@@ -29,7 +29,7 @@ body {
     padding-right: 30px;
 }
 .img {
-
+flex-direction: row;
 }
 #site-logo {
     max-width: 120px;
