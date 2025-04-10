@@ -39,10 +39,13 @@ flex-direction: row;
     flex-wrap: wrap;
 }
 .main-navigation a {
-    color: var(--dim-gray);
+    color: var(--black);
     text-decoration: none;
     font-size: var(--nav-text-size);
     padding: 1em;
+}
+.main-navigation a:hover {
+  color: var(--night);
 }
 .user-nav {
     display: flex;
@@ -56,7 +59,7 @@ flex-direction: row;
     padding: 1em;
 }
 .user-nav a:hover {
-    color: var(--ash-gray);
+    color: var(--night);
 }
 .visuallyhidden {
     border: 0;
