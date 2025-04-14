@@ -104,9 +104,13 @@ flex-direction: row;
   padding-left: 30px;
   padding-right: 30px;
   width: 100%;
-  height: 20px;
+  height: 30px;
  }
- 
+ .main-footer a {
+  color: var(--dim-gray);
+  margin-right: 10px;
+  
+ }
 .main-footer a:hover {
-  color: var(---dimgray);
+  color: var(---black);
 }
