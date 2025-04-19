@@ -39,7 +39,7 @@ flex-direction: row;
     flex-wrap: wrap;
 }
 .main-navigation a {
-    color: var(--black);
+    color: var(--dim-gray);
     text-decoration: none;
     font-size: var(--nav-text-size);
     padding: 1em;
@@ -81,14 +81,15 @@ flex-direction: row;
   #site-search input {
     flex: 1;
     padding: 0.5em;
-    border: 1px solid var(--ash-gray);
+    border: 1px solid var(--dim-gray);
     border-radius: 5px 0px 0px 5px;
   }
   #site-search button {
     background-color: var(--pumpkin);
     padding: 0.5em;
-    border: 1px solid var(--ash-gray);
+    border: 1px solid var(--dim-gray);
     border-radius: 0px 5px 5px 0px;
+    color: var(--dim-gray)
   }
   .nav-button {
     display: none;
