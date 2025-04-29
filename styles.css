@@ -124,7 +124,7 @@ flex-direction: row;
   }
   .slide {
     min-height: 50vh;
-    background-color: var(--pumpkin);
+    background-color: var(--black);
     min-width: 100%;
     display: grid;
     place-items: center;
