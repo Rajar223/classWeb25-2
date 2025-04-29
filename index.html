@@ -16,6 +16,8 @@
   <meta name="viewport" content="initial-scale=1, width=device-width">
   <link rel="stylesheet" href="responsive.css">
   <script src="main.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <!-- body is for content -->
 
@@ -58,7 +60,25 @@
     </nav>
   </header>
   <main>
-	<img src="images/bjorkdiddy.gif"></img><br><br>
+    <div id="home-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+      <div class="slide">
+        <div class="slide-content">
+          <img src="Supporting Documents/Gary Tan.jpg" alt="tan shoes">
+          <div>
+            <h2>Shoes</h2>
+            <p>The perfect shoes</p>
+          </div>
+        </div>
+        <a class="slide-cta-button" href="shop.html">
+          Shop the collection
+        </a>
+      </div>
+      <div class="slide">2</div>
+      <div class="slide">3</div>
+      <div class="slide">4</div>
+      <div class="slide">5</div>
+    </div>
+	<br><br>
   <img src="Supporting Documents/Heavenly Black.jpg" alt="HeavenlyBlackShoe"></img> 
   <img src="Supporting Documents/Work and Walk Chesnut.jpg" alt="WorkAndWalk"></img> 
   <img src="Supporting Documents/Sally Black.jpg" alt="SallyBlack"></img> 
